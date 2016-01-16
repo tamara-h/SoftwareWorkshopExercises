@@ -1,0 +1,7 @@
+import javax.swing.JSlider;
+import java.util.Observer;
+import java.util.Observable;
+public class SliderControl extends JSlider implements Observer
+{
+	private JuliaModel model;
+}
